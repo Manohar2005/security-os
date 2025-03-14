@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Development](https://img.shields.io/badge/Status-Development-orange.svg)]()
 
-**A Student Project by [Your Name]** (Replace with your name)
+**A Student Project by Manohar Kosana
 
 This project aims to create a dual-mode environment based on Debian, designed to provide guided steps for exploring both offensive and defensive security tools. It's a hands-on system where you can easily access pre-existing security tools and even integrate your own scripts, with helpful guidance along the way.
 
@@ -36,13 +36,6 @@ The goal is to provide a practical and accessible way to get started with cybers
 *   **`defense_mode/`:** Scripts and configurations related to defensive security tools.
 *   **`scripts/`:** Scripts for automating security tasks and OS management.
 *   **`installer/`:** Scripts to install and configure Security-OS.
-
-## Getting Involved
-
-This project is a learning experience for me, and I welcome feedback and contributions! If you have ideas, suggestions, or want to help out, feel free to:
-
-*   Open an issue to report bugs or suggest features.
-*   Fork the repository and submit pull requests.
 
 ## Disclaimer
 
