@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Development](https://img.shields.io/badge/Status-Development-orange.svg)]()
 
-**A Student Project by Manohar Kosana
+A Student Project by Manohar Kosana
 
 This project aims to create a dual-mode environment based on Debian, designed to provide guided steps for exploring both offensive and defensive security tools. It's a hands-on system where you can easily access pre-existing security tools and even integrate your own scripts, with helpful guidance along the way.
 
