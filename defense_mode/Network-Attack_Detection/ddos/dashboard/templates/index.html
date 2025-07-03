@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS Attack Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; font-family: monospace; }
+        .alert { background-color: #1e293b; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body class="p-6">
+    <h1 class="text-3xl font-bold mb-4">DDoS & OWASP Top 10 Detection Dashboard</h1>
+    {% if packets %}
+        {% for pkt in packets if pkt.alerts %}
+            <div class="alert">
+                <p><strong>⏱ {{ pkt.timestamp }}</strong></p>
+                <p><strong>Src:</strong> {{ pkt.src }}  <strong>Dst:</strong> {{ pkt.dst }}</p>
+                <p><strong>Alerts:</strong> {{ pkt.alerts|join(', ') }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No packet data available.</p>
+    {% endif %}
+</body>
+</html>
